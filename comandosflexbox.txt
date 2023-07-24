@@ -1,0 +1,46 @@
+
+horizontalmente
+justify-content: flex-end
+justify-content: space-around
+justify-content: flex-start (default)
+justify-content: flex-end
+justify-content: center
+justify-content: space-betwenn
+justify-content: space-evenly 
+
+
+verticalmente
+align-items: flex-end
+align-items: flex-start
+align-items: center
+align-items: baseline
+align-items: stretch (default)
+
+
+Vira linha ou coluna
+flex-direction: row (default)
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+
+order: (número)
+
+Para aplicar em itens individuais
+align-self: flex-end;
+
+
+flex-wrap: nowrap; Cada item é ajustado a uma única linha.
+flex-wrap: wrap; os itens são agrupados em linhas adicionais.
+flex-wrap: wrap-reverse; os itens voltam para linhas adicionais no sentido inverso.
+
+
+junçao de flex-wrap com flex-direction = flex-flow
+flex-flow: <flex-direction> <flex-wrap>
+
+align-content para definir como várias linhas são espaçadas umas das outras.
+align-content: flex-start; as linhas são empacotadas na parte superior do contêiner.
+align-content: flex-end; as linhas são empacotadas na parte inferior do contêiner.
+align-content: center; as linhas são empacotadas no centro vertical do contêiner.
+align-content: space-between; As linhas são exibidas com espaçamento igual entre elas.
+align-content: space-around; As linhas são exibidas com espaçamento igual ao redor delas.
+align-content: stretch; as linhas são esticadas para caber no contêiner.
